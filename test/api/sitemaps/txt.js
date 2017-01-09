@@ -10,7 +10,7 @@ const _ = require('lodash'),
   winston = require('winston'),
   sinon = require('sinon'),
   routes = require('../../../lib/routes'),
-  request = require('supertest-as-promised');
+  request = require('supertest');
 
 /**
  * @param {string} publicUri

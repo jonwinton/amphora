@@ -13,7 +13,7 @@ const _ = require('lodash'),
   multiplexTemplates = require('multiplex-templates'),
   sinon = require('sinon'),
   routes = require('../../../lib/routes'),
-  request = require('supertest-as-promised');
+  request = require('supertest');
 
 /**
  * @param {string} publicUri

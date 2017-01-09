@@ -2,7 +2,7 @@
 
 const _ = require('lodash'),
   express = require('express'),
-  request = require('supertest-as-promised'),
+  request = require('supertest'),
   files = require('../../lib/files'),
   components = require('../../lib/services/components'),
   routes = require('../../lib/routes'),
